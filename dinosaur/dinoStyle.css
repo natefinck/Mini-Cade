@@ -1,0 +1,102 @@
+
+.dino {
+	width: 50px;
+	height: 120px;
+	background-color: red;
+	position: relative;
+	top: 380px;
+}
+
+.jump{
+	animation: jump 500ms;
+}
+
+@keyframes jump{
+	0%{top: 380px;}
+	30%{top: 330px;}
+	70%{top: 330px;}
+	100%{top: 380px;}
+}
+
+.block {
+	width:  20px;
+	height: 20px;
+	background-color: blue;
+	position:relative;
+	top: 360px;
+	left: 780px;
+}
+.blockAnimation {
+	animation: block 1.4s infinite;
+}
+
+@keyframes block{
+	0%{left:780px;}
+	100%{left:-20px;}
+}
+
+.doneContainer {
+	width: 400px;
+	height: 250px;
+	position: relative;
+	left: 100px;
+	background-color: #80CBC4;
+	display: none;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.doneContainer h1 {
+	color: white;
+	text-align: center;
+}
+
+.startContainer {
+	width: 400px;
+	height: 250px;
+	position: relative;
+	left: 100px;
+	background-color: #80CBC4;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.startContainer h1 {
+	color: white;
+	text-align: center;
+}
+
+.playAgain, .startButton {
+	background-color: #F7C23D;
+	color: white;
+	margin: 0 auto;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.submitButton {
+	height: 45px;
+	background-color: #F7C23D;
+	margin-top: 35px;
+	float: right;
+	margin-right: 50px;
+	width: 220px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.doneButtons {
+	background-color: #F7C23D;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}

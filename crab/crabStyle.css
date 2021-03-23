@@ -1,0 +1,76 @@
+.crabContainer {
+	display: flex;
+}
+
+.crab {
+	position: relative;
+}
+
+#blueCrab {
+	left: 70px;
+	top: 450px;
+}
+
+#redCrab {
+	left: 200px;
+	top: 450px;
+}
+
+#yellowCrab {
+	left: 330px;
+	top: 450px;
+}
+
+#greenCrab {
+	left: 460px;
+	top: 450px;
+}
+
+.gameContainer {
+	background-image: url("img/beach.jpg");
+	background-position-y: -500px;
+}
+
+.doneContainer {
+	width: 350px;
+	height: 200px;
+	position: relative;
+	left: 100px;
+	background-color: #80CBC4;
+	display: none;
+	border-radius: 10px;
+}
+
+.doneContainer h1, .startContainer h1 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.playAgain, .startButton {
+	background-color: #F7C23D;
+	color: white;
+	margin: 0 auto;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 8px;
+	cursor: pointer;
+	position: absolute;
+	top: 130px;
+	left: 120px
+}
+
+.startContainer {
+	width: 350px;
+	height: 200px;
+	position: relative;
+	left: 100px;
+	background-color: #80CBC4; 
+	border-radius: 10px;
+}
+
+.startContainer p{
+	text-align: center;
+}
+

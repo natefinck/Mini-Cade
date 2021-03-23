@@ -1,0 +1,136 @@
+.box {
+	display: none;
+}
+
+.checkmark {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #ddd;
+	border-radius: 2px;
+	position: relative;
+	transition: background-color 0.25s;
+}
+
+.box:checked ~ .checkmark {
+	background-color: #F7C23D;
+}
+
+.checkmark::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 13px;
+	margin-left: 7px;
+	margin-top: 1px;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transform: rotateZ(40deg) scale(10);
+	opacity: 0;
+	transition: all 0.25s;
+}
+
+.box:checked ~ .checkmark::after {
+	opacity: 1;
+	transform: rotateZ(40deg) scale(1);
+}
+
+.boxWrapper {
+	margin: 25px;
+}
+
+.checkContainer {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 20px;
+}
+
+.gameContainer {
+	padding: 20px !important;
+	height: 400px !important;
+}
+
+.startContainer {
+	border-radius: 10px;
+	width: 400px;
+	height: 250px;
+	position: relative;
+	left: 100px;
+	top: -300px;
+	background-color: #80CBC4;
+	color: white;
+	padding: 20px;
+}
+
+.startContainer h1 {
+	color: white;
+	text-align: center;
+	padding-top: 35px;
+}
+
+.playAgain, .startButton {
+	background-color: #F7C23D;
+	color: white;
+	margin: 0 auto;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.doneContainer {
+	border-radius: 10px;
+	width: 400px;
+	height: 250px;
+	position: relative;
+	left: 100px;
+	top: -360px;
+	background-color: #80CBC4;
+	color: white;
+	padding: 20px;
+	display: none;
+}
+
+ /*form styles*/
+form input {
+	width: 80%;
+	height: 30px;
+	border-radius: 4px;
+	border: 1px solid gray;
+	box-shadow: 0px 0px 2px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+}
+
+.submitButton {
+	height: 45px;
+	background-color: #F7C23D;
+	margin-top: 35px;
+	float: right;
+	margin-right: 50px;
+	width: 220px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.doneButtons {
+	background-color: #F7C23D;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.gameContainer {
+	height: 550px !important;
+}

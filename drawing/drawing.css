@@ -1,0 +1,172 @@
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#canvas {
+	border: 2px solid black;
+	height: 800px;
+	width: 100%;
+}
+
+/**
+
+#color-picker{
+	border: 2px solid black;
+	position: fixed;
+	width: 135px; 
+	height: 400px;
+	top: 0px;
+	right: 0px;
+	margin-top: 100px;
+}
+
+
+#red{
+	background-color: #FF0000; 
+	border-color: #FF0000;
+}
+
+#light-orange{
+	background-color: #FFA500; 
+	border-color: #FFA500;
+}
+
+#light-yellow{
+	background-color: #FFFF00; 
+	border-color: #FFFF00;
+}
+
+#light-green{
+	background-color: #00FF00; 
+	border-color: #00FF00;
+
+}
+
+
+#torquoise{ 
+	background-color: #00CED4; 
+	border-color: #00CED4;
+}
+
+
+#blue{
+	background-color: #0000FF; 
+	border-color: #0000FF;
+}
+
+
+#light-purple{
+	background-color: #9400D3; 
+	border-color: #9400D3;
+
+}
+
+#baby-blue{
+	background-color: #89CFF0; 
+	border-color: #89CFF0; 
+}
+
+
+
+#light-brown{
+   background-color: #987652; 
+   border-color: #987652;
+	/** dark brown we need
+	background-color: #654321; 
+	border-color: #654321 ;
+
+
+}
+
+#grey{
+	background-color: #a6a6a6;  dark grey: 616161; 
+	border-color: #a6a6a6;
+
+}
+
+
+#pink{
+	background-color: #fe9cd6; 
+	border-color:  #fe9cd6;
+
+}
+
+#dark-orange{
+	background-color: #FF7F00; 
+	border-color:  #FF7F00;
+
+
+}
+
+#dark-yellow{
+	background-color: #FFFF00; 
+	border-color: #FFFF00;
+
+
+}
+
+#forest-green{
+	background-color: #014421; 
+	border-color:  #014421;
+
+
+}
+
+#torquoise{
+	background-color: #40E0D0; 
+	border-color: #40E0D0;
+
+}
+
+#navy-blue{
+	background-color: #02075D; 
+	border-color: #02075D;
+
+}
+
+#dark-purple{
+	background-color: #4B0082; 
+	border-color:  #4B0082;
+}
+
+
+#dark-brown{
+	background-color: #654321; 
+	border-color: #654321 ;
+
+}
+
+#black{
+	background-color: #000000; 
+	border-color: #000000;
+
+}
+
+ #column1{
+	margin-left: 10px;
+
+}
+
+#column2{
+	margin-left: 73px;
+	margin-bottom: 130px;
+
+
+}
+
+.color{
+	margin: 2px;
+	width: 42px; 
+	height: 42px;
+	padding-left: 10px;
+	border-radius: 3px;
+}
+
+**/
+
+
+input {
+    margin: .4rem;
+}

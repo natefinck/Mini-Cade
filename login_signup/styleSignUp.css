@@ -1,0 +1,15 @@
+.loginContainer {
+	height: 460px !important;
+}
+
+.beenHere {
+	font-size: 10pt;
+	position: absolute;
+	left: 75px;
+	top: 400px;
+}
+
+.beenHere a {
+	text-decoration: none;
+	color: #F7C23D;
+}

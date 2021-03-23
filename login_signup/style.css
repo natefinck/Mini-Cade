@@ -1,0 +1,107 @@
+body{
+	background-color: #fffbf3;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+}
+
+.loginContainer {
+	background-color: white;
+	border: 1px #fff4c2 solid;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px;
+	height: 280px;
+	width: 300px;
+	position: absolute;
+	right: 200px;
+	top: 150px;
+}
+
+.title {
+	padding-left: 20px;
+}
+
+form input {
+	width: 80%;
+	height: 30px;
+	border-radius: 4px;
+	border: 1px solid gray;
+	box-shadow: 0px 0px 2px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+}
+
+.controller {
+	height: 425px;
+	transform: rotate(20deg);
+	position: absolute;
+	left: -35px;
+	top: 300px;
+}
+
+.curve {
+	height: 1100px;
+	transform: rotate(-30deg);
+	position: absolute;
+	left: 300px;
+	top: -50px;
+}
+
+.getInGame {
+	font-size: 80px;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	color: #013668;
+}
+
+.miniCade {
+	font-size: 20px;
+	position: absolute;
+	left: 656px;
+	top: 210px;
+	color: #013668;
+}
+
+.submitButton {
+	height: 45px;
+	background-color: #013668;
+	margin-top: 35px;
+	float: right;
+	margin-right: 50px;
+	width: 130px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.newHere {
+	font-size: 10pt;
+	position: absolute;
+	left: 120px;
+	top: 220px;
+}
+
+.newHere a {
+	text-decoration: none;
+	color: #F7C23D;
+}
+
+.loginError {
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 20px !important;
+    color: #013668;
+	width: 400px;
+	height: 35px;
+	background-color: #f5d3ce;
+	border: 2px red solid;
+	border-radius: 5px;
+	margin: 0 auto;
+    box-shadow: 0px 0px 5px;
+}
