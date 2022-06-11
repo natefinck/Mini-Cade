@@ -1,5 +1,5 @@
 # Mini-Cade
-Mini game website designed in CSC 551 - live at https://natefinck.com/MiniCade 
+Mini game website designed in CSC 551
 
 ## Notes:
 * Web Application not secure
